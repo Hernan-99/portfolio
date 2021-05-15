@@ -1,0 +1,324 @@
+*´ {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*------------ -------------- HEADER ------------ --------------*/
+
+header {
+  background: url(../img/banner.jpg) #c2c2c2;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  max-height: 600px;
+}
+
+header .menu {
+  margin: 40px 0px;
+  text-align: right;
+}
+
+header .menu a {
+  margin: 0px 20px;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 9px;
+  font-size: 1em;
+  transform: scale(1);
+  transition: 200ms;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+
+header .menu a:hover {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  color: #c2c2c2;
+  transform: scale(0.98);
+  transition: 200ms;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  -webkit-transform: scale(0.98);
+  -moz-transform: scale(0.98);
+  -ms-transform: scale(0.98);
+  -o-transform: scale(0.98);
+}
+
+header .contenedorTexto {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 190px 0px;
+}
+
+header .contenedorTexto .texto {
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  text-align: center;
+  border-radius: 3px;
+  padding: 20px 60px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+header .contenedorTexto .texto h1,
+header .contenedorTexto .texto h2 {
+  color: #fff;
+  font-weight: 300;
+  margin: 0px;
+}
+
+header .contenedorTexto .texto .Nombre {
+  margin: 10px;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+header .contenedorTexto .texto .Profesion {
+  font-size: 25px;
+  line-height: 50px;
+}
+/*------------ -------------- FIN HEADER ------------ --------------*/
+
+/*------------ -------------- MAIN ------------ --------------*/
+
+.main .contenedor {
+  overflow: visible;
+}
+
+.main .acercaDe {
+  text-align: center;
+}
+
+.main .acercaDe .contenedorFoto {
+  margin-top: -60px;
+}
+
+.main .acercaDe .contenedorFoto img {
+  vertical-align: top;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+.main .acercaDe .contenedorTexto {
+  color: #5a5a5a;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 30px;
+  width: 80%;
+  margin: 40px auto 60px auto;
+}
+
+.main .acercaDe .contenedorTexto .Titulo {
+  color: #004385;
+  text-align: center;
+  font-size: 34px;
+  line-height: 34px;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+
+.main .acercaDe .contenedorTexto .resaltar {
+  color: #05b2dc;
+  text-decoration: underline;
+}
+
+/*------------ -------------- FIN MAIN ------------ --------------*/
+
+/*------------ -------------- TRABAJOS ------------ --------------*/
+
+.main .trabajos {
+  background: #f2f2f2;
+  padding: 60px 0px;
+}
+
+.main .trabajos .contenedor {
+  overflow: hidden;
+}
+
+.main .trabajos .titulo {
+  color: #323068;
+  font-size: 34px;
+  line-height: 34px;
+  margin: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.main .trabajos .contenedorTrabajos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main .trabajos .contenedorTrabajos .trabajo {
+  width: 23%;
+  margin-bottom: 40px;
+}
+
+.main .trabajos .contenedorTrabajos .trabajo .imagen {
+  width: 100%;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.main .trabajos .contenedorTrabajos .trabajo .imagen img {
+  width: 100%;
+  vertical-align: top;
+  transition: 300ms;
+}
+
+.main .trabajos .contenedorTrabajos .trabajo .imagen img:hover {
+  transform: scale(1.1);
+  transition: 300ms;
+}
+
+.main .trabajos .contenedorTrabajos .trabajo .descripcion {
+  text-align: center;
+}
+
+.main .trabajos .contenedorTrabajos .trabajo .nombre {
+  font-weight: 700;
+  color: #004385;
+  margin-bottom: 10px;
+}
+
+.main .trabajos .contenedorTrabajos .trabajo .categoria {
+  font-size: 14px;
+  color: #636363;
+}
+
+/*------------ -------------- FIN TRABAJOS ------------ --------------*/
+
+/*------------ -------------- FOOTER ------------ --------------*/
+
+footer .redesSociales {
+  background: #1e2b38;
+  padding: 60px 0px;
+}
+
+footer .redesSociales .contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+footer .redesSociales a {
+  color: #fff;
+  text-align: center;
+  width: 100px;
+  display: block;
+  padding: 15px 0px;
+  font-size: 30px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  margin: 0px 20px;
+}
+
+footer .redesSociales .instagram:hover {
+  background: linear-gradient(#5851db, #e1306c);
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+footer .redesSociales .facebook:hover {
+  background: #3b5998;
+}
+footer .redesSociales .twitter:hover {
+  background: #1da1f2;
+}
+footer .redesSociales .github:hover {
+  background: rgba(0, 51, 51, 0.692);
+}
+footer .redesSociales .linkedin:hover {
+  background: #0077b5;
+}
+
+/*------------ --------------FIN FOOTER ------------ --------------*/
+
+/*------------ -------------- RESPONSIVE DESIGN MEDIA QUEREIS------------ --------------*/
+
+@media screen and (max-width: 800px) {
+  header .menu {
+    text-align: center;
+  }
+
+  .main .trabajos .contenedorTrabajos .trabajo {
+    width: 46%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  footer .contacto .formulario input[type="text"],
+  footer .contacto .formulario input[type="email"] {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header .contenedorTexto .texto .Nombre {
+    font-size: 35px;
+  }
+  header .contenedorTexto .texto .Profesion {
+    font-size: 18px;
+  }
+
+  footer .redesSociales .contenedor {
+    flex-wrap: wrap;
+    padding: 20px 0px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header .menu a {
+    text-align: center;
+    margin: 0px 10px;
+  }
+
+  header .contenedorTexto {
+    margin: 95px 0px;
+  }
+
+  header .contenedorTexto .texto {
+    padding: 10px 30px;
+  }
+}
