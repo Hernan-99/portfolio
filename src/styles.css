@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --celeste-oscuro: #02aab0;
+  --celeste-claro: #00cdac;
+
+  --blanco: #fff;
+
+  --gris-oscuro: #333333;
+  --gris-claro: #d2d2d2;
+
+  --azul-oscuro: #272341;
+
+  --default-font-size: 16px;
+}
+
+body {
+  font-size: var(--default-font-size);
+}
