@@ -1,11 +1,15 @@
-<section class="container hero">
+<section
+  class="container text-md-start text-lg-start text-center hero"
+  data-aos="fade-right"
+  data-aos-duration="1000"
+>
   <article class="row">
     <div class="col-12">
       <h1>
         Hola, mi nombre es <span class="name">Hernan Sanchez</span><br />
         Desarrollador Front End
       </h1>
-      <button class="btn rounded-0 btn-about">Sobre mi</button>
+      <app-btn-sobre-mi [valorBtn]="textoBtn"></app-btn-sobre-mi>
     </div>
   </article>
 </section>

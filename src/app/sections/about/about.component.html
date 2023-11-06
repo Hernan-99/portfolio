@@ -1,15 +1,18 @@
 <section class="container-fluid efecto">
-  <article class="row">
+  <article class="row m-0">
     <h3 class="sobre-mi">Sobre mi</h3>
-    <div class="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center">
+    <div
+      class="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center"
+      data-aos="fade-down"
+    >
       <img
         class="img"
         src="../../../assets/img/img-perfil.jpg"
         alt="imagen de perfil"
       />
     </div>
-    <div class="col-sm-12 col-md-8 col-lg-8">
-      <p class="descripcion">
+    <div class="col-sm-12 col-md-8 col-lg-8 descripcion" data-aos="fade-up">
+      <p>
         Soy una persona responsable y comprometida con mis tareas. Destaco de mí
         el compañerismo, el trabajo en equipo y la adaptabilidad al cambio. Mi
         experiencia laboral es limitada, pero demostré rápido aprendizaje y
@@ -19,7 +22,7 @@
         aprendizaje continuo. Estoy preparado para afrontar cualquier tipo de
         desafíos.
       </p>
-      <a class="btn-cv" href="" target="_blank">Descargar cv</a>
+      <app-btn-descargar-cv [valorBtn]="textoBtn"></app-btn-descargar-cv>
     </div>
   </article>
 </section>
