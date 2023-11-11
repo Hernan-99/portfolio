@@ -16,6 +16,7 @@ Si queres correr este proyecto clonalo, usando git:
 ```
 git clone https://github.com/Hernan-99/portfolio.git
 cd portfolio
+cd FrontEnd
 ```
 
 Instalar dependencias:
